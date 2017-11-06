@@ -12,9 +12,10 @@ namespace DatabaseConnectionManager.BLL
         public DBCM()
         {
             Connection.Server = Connection.Database = Connection.UserId = Connection.Password = string.Empty;
-            Connection.DBCM = Connection.Port = 0;
+            Connection.DBCM = Servers.NONE;
+            Connection.Port = 0;
         }
-        public DBCM(short DBCM, string Server, short Port, string Database, string UserId, string Password)
+        public DBCM(Servers DBCM, string Server, short Port, string Database, string UserId, string Password)
         {
             Connection.DBCM = DBCM;
             Connection.Server = Server;

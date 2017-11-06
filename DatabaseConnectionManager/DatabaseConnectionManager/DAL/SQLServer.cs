@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 
 namespace DatabaseConnectionManager.DAL
 {
-    class SQLServer : IMethodsObligatory
+    internal class SQLServer : IMethodsObligatory
     {
         private SqlConnection sqlConnection = null;
         private SqlCommand sqlCommand = null;

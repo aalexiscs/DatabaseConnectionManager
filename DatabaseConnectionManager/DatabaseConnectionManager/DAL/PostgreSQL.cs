@@ -5,7 +5,7 @@ using System.Data;
 
 namespace DatabaseConnectionManager.DAL
 {
-    class PostgreSQL : IMethodsObligatory
+    internal class PostgreSQL : IMethodsObligatory
     {
         private NpgsqlConnection npgsqlConnection = null;
         private NpgsqlCommand npgsqlCommand = null;

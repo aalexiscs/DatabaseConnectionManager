@@ -5,7 +5,7 @@ using MySql.Data.MySqlClient;
 
 namespace DatabaseConnectionManager.DAL
 {
-    class MySQL : IMethodsObligatory
+    internal class MySQL : IMethodsObligatory
     {
         private MySqlConnection mySqlConnection;
         private MySqlCommand mySqlCommand;

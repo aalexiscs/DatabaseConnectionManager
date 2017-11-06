@@ -2,7 +2,7 @@
 {
     static class Connection
     {
-        public static short DBCM { get; set; }
+        public static Servers DBCM { get; set; }
         public static string Server { get; set; }
         public static short Port { get; set; }
         public static string Database { get; set; }
