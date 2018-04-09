@@ -2,7 +2,7 @@
 
 namespace DatabaseConnectionManager.Objects
 {
-    interface IMethodsObligatory
+    internal interface IMethodsObligatory
     {
         void Connect();
         void Disconnect();

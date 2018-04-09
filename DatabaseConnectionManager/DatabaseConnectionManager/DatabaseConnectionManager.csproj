@@ -55,6 +55,7 @@
     <Compile Include="DAL\SQLServer.cs" />
     <Compile Include="DBCMBuilder.cs" />
     <Compile Include="Objects\Connection.cs" />
+    <Compile Include="Objects\OperationsSql.cs" />
     <Compile Include="Objects\Servers.cs" />
     <Compile Include="Objects\IMethodsObligatory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
